@@ -12,7 +12,8 @@ public class Main {
         int y2 = x1.lastIndexOf("robot");
         System.out.println(y2); //prints 9
         //However, if we start from a specific index...
-        int y3 = x1.lastIndexOf("robot", 8); //prints -1, because if you start from 8, robot is never reached.
+        int y3 = x1.lastIndexOf("robot", 8);
+        System.out.println(y3); //prints -1, because if you start from 8, robot is never reached.
         //Therefore, lastIndexOf receives two parameters, String and int (for our purposes).
     }
 }
